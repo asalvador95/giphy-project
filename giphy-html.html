@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title> Disney Gifs </title>
+
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<audio autoplay loop>
+  	<source src="assets/music/disneyIntro.mp3" type="audio/mp3" loop="loop">
+	</audio>
+
+	<div class= "container" id = "buttons-view"></div>
+
+	<div class= "container-fluid" id="mainContainer">
+
+		<div class= "col-md-9" id =gifDiv></div>
+
+	<div class= "col-md-3" id ="formDiv">
+		<form id ="my-form">
+			<label for = "movies-input" style = "color: white;"> Add a Disney movie or any other movie! </label>
+			<br>
+			<input type = "text" id ="movies-input"> 
+			<br>
+			<br>
+			<input type = "submit" id = "add-movies" value = "Submit">
+		</form>	
+	</div>
+</div>
+
+	<!--JS file link -->
+	<script type="text/javascript" src="assets/javascript/giphy-java.js"></script>
+
+</body>
+
+
+</html>

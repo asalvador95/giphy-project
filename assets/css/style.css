@@ -1,0 +1,23 @@
+body {
+    background: #466368;
+  background: radial-gradient(#96F9F9, #0477B0);
+  border-radius: 6px;
+  height: 600px;
+}
+
+.gifs{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.movies{
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+
+#footer {
+	color: black;
+	padding-top: 30%;
+	padding-left: 5%;
+}
